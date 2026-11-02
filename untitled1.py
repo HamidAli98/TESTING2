@@ -22,7 +22,7 @@ import seaborn as sns
 # Naya code (aise likhein):
 df = pd.read_csv('student-por.csv', sep=',')
 # Display the first 5 rows
-display(df.head())
+display(df.head()
 
 """### 2. Dataset Information and Summary Statistics
 Let's check the shape of the dataset, missing values, column data types, and statistical summaries.

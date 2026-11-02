@@ -16,8 +16,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset (Portuguese class students) - using comma as separator
-df = pd.read_csv('/content/student-por.csv', sep=',')
+# Purana code:
+# df = pd.read_csv('/content/student-por.csv', sep=',')
 
+# Naya code (aise likhein):
+df = pd.read_csv('student-por.csv', sep=',')
 # Display the first 5 rows
 display(df.head())
 
